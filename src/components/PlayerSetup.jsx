@@ -110,7 +110,7 @@ export default function PlayerSetup() {
       </div>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
-        <p className="sheet-sub" style={{ margin: 0 }}>Введите никнеймы (опционально)</p>
+        <p className="sheet-sub" style={{ margin: 0 }}>Введите никнеймы</p>
         <button
           onClick={handleShuffle}
           style={{
