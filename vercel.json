@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/mafia-api/:path*",
+      "destination": "https://app-128839102.1cmycloud.com/applications/mafia/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
