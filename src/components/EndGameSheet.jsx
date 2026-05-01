@@ -70,9 +70,8 @@ export default function EndGameSheet() {
     }
 
     try {
-      await fetch('/mafia-api/change/newgame', {
+      await fetch('/api/proxy', {
         method: 'POST',
-        credentials: 'include',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       })
