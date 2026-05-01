@@ -273,8 +273,6 @@ function RolesModal({ onClose }) {
               borderBottom: '1px solid #1e1e28',
               width: '100%',
               background: 'none',
-              border: 'none',
-              borderBottom: '1px solid #1e1e28',
               cursor: 'pointer',
               color: 'inherit',
             }}
