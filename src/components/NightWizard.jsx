@@ -316,6 +316,11 @@ export default function NightWizard({ onOpenOverlay, isModal, onClose }) {
               <div style={{ fontSize: 11, color: '#888' }}>
                 {p.nickname && p.nickname.slice(0, 10)}
               </div>
+              {p.role && (
+                <div style={{ fontSize: 10, color: ROLES[p.role].color, marginTop: 3 }}>
+                  {ROLES[p.role].icon} {ROLES[p.role].name}
+                </div>
+              )}
             </button>
           )
         })}
